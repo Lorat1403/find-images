@@ -67,7 +67,7 @@ img {
   width: 100%;
   max-width: 600px;
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -76,7 +76,6 @@ img {
   width: 48px;
   height: 48px;
   border: 0;
-  /* background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg'); */
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -85,10 +84,7 @@ img {
   cursor: pointer;
   outline: none;
 }
-/* .SearchForm-icon {
-  width: 20px;
-  height: 20px;
-} */
+
 
 .SearchForm-button:hover {
   opacity: 1;
@@ -186,11 +182,16 @@ img {
 */
 .Button {
   padding: 8px 16px;
-  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 10px;
   background-color: #7919c9;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
-  display: inline-block;
+  display: flex;
   color: #fff;
   border: 0;
   text-decoration: none;
